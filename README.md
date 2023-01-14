@@ -8,4 +8,5 @@ Types of player that can be created
 4) fast flexible
 
 create command creates the new player at given position and based on type of player given
+
 move command moves the player in the direction specified by user.
