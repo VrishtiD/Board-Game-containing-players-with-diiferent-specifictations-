@@ -1,0 +1,191 @@
+     Test 1
+
+"C:\Program Files\Java\jdk-16.0.2\bin\java.exe" "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2021.2.1\lib\idea_rt.jar=51281:C:\Program Files\JetBrains\IntelliJ IDEA 2021.2.1\bin" -Dfile.encoding=UTF-8 -classpath C:\Users\lenovo\IdeaProjects\Assignment1\out\production\Assignment1 GameDemo
+Enter a command  (type help for details)
+help
+Possible commands are as follows:
+create location [fast][flexible]: Creates a new piece.
+move location direction [spaces]: Moves a piece.
+print: Displays the board.
+help: Displays help.
+exit: Exits the program.
+Enter a command (type help for details):
+print
+	-			-			-			-			-			-			-			-		
+	-			-			-			-			-			-			-			-		
+	-			-			-			-			-			-			-			-		
+	-			-			-			-			-			-			-			-		
+	-			-			-			-			-			-			-			-		
+	-			-			-			-			-			-			-			-		
+	-			-			-			-			-			-			-			-		
+	-			-			-			-			-			-			-			-		
+Enter a command (type help for details):
+create 3 3 fast flexible
+Input a name for the new piece:
+Jedi
+Input a colour for the new piece:
+Red
+Enter a command (type help for details):
+print
+	-			-			-			-			-			-			-			-		
+	-			-			-			-			-			-			-			-		
+	-			-			-			-			-			-			-			-		
+	-			-			-		JediRedFF		      -			-			-			-		
+	-			-			-			-			-			-			-			-		
+	-			-			-			-			-			-			-			-		
+	-			-			-			-			-			-			-			-		
+	-			-			-			-			-			-			-			-		
+Enter a command (type help for details):
+move 7 7
+Enter a command (type help for details):
+move 3 3 up 2
+Piece at (1,3) moved up by 2 spaces
+Enter a command (type help for details):
+print
+	-			-			-			-			-			-			-			-		
+	-			-			-		JediRedFF		      -			-			-			-		
+	-			-			-			-			-			-			-			-		
+	-			-			-			-			-			-			-			-		
+	-			-			-			-			-			-			-			-		
+	-			-			-			-			-			-			-			-		
+	-			-			-			-			-			-			-			-		
+	-			-			-			-			-			-			-			-		
+Enter a command (type help for details):
+exit
+
+Process finished with exit code 0
+
+
+	Test 2
+
+
+"C:\Program Files\Java\jdk-16.0.2\bin\java.exe" "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2021.2.1\lib\idea_rt.jar=51403:C:\Program Files\JetBrains\IntelliJ IDEA 2021.2.1\bin" -Dfile.encoding=UTF-8 -classpath C:\Users\lenovo\IdeaProjects\Assignment1\out\production\Assignment1 GameDemo
+Enter a command  (type help for details)
+create 4 5
+Input a name for the new piece:
+vrishti
+Input a colour for the new piece:
+blue
+Enter a command (type help for details):
+print
+	-			-			-			-			-			-			-			-		
+	-			-			-			-			-			-			-			-		
+	-			-			-			-			-			-			-			-		
+	-			-			-			-			-			-			-			-		
+	-			-			-			-			-		vrishtiblueS		-			-		
+	-			-			-			-			-			-			-			-		
+	-			-			-			-			-			-			-			-		
+	-			-			-			-			-			-			-			-		
+Enter a command (type help for details):
+move 4 5 left
+Piece at (4,4) moved left by 1 space
+Enter a command (type help for details):
+print
+	-			-			-			-			-			-			-			-		
+	-			-			-			-			-			-			-			-		
+	-			-			-			-			-			-			-			-		
+	-			-			-			-			-			-			-			-		
+	-			-			-			-		vrishtiblueS		-			-			-		
+	-			-			-			-			-			-			-			-		
+	-			-			-			-			-			-			-			-		
+	-			-			-			-			-			-			-			-		
+Enter a command (type help for details):
+create 2 3 slow flexible
+Input a name for the new piece:
+dawra
+Input a colour for the new piece:
+Black
+Enter a command (type help for details):
+print
+	-			-			-			-			-			-			-			-		
+	-			-			-			-			-			-			-			-		
+	-			-			-		dawraBlackSF		-			-			-			-		
+	-			-			-			-			-			-			-			-		
+	-			-			-			-		vrishtiblueS		-			-			-		
+	-			-			-			-			-			-			-			-		
+	-			-			-			-			-			-			-			-		
+	-			-			-			-			-			-			-			-		
+Enter a command (type help for details):
+move 2 3 right
+Piece at (2,4) moved right by 1 space
+Enter a command (type help for details):
+print
+	-			-			-			-			-			-			-			-		
+	-			-			-			-			-			-			-			-		
+	-			-			-			-		dawraBlackSF		-			-			-		
+	-			-			-			-			-			-			-			-		
+	-			-			-			-		vrishtiblueS		-			-			-		
+	-			-			-			-			-			-			-			-		
+	-			-			-			-			-			-			-			-		
+	-			-			-			-			-			-			-			-		
+Enter a command (type help for details):
+exit
+
+Process finished with exit code 0
+
+
+  Test 3
+"C:\Program Files\Java\jdk-16.0.2\bin\java.exe" "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2021.2.1\lib\idea_rt.jar=51499:C:\Program Files\JetBrains\IntelliJ IDEA 2021.2.1\bin" -Dfile.encoding=UTF-8 -classpath C:\Users\lenovo\IdeaProjects\Assignment1\out\production\Assignment1 GameDemo
+Enter a command  (type help for details)
+create 4 5 fast
+Input a name for the new piece:
+csci
+Input a colour for the new piece:
+green
+Enter a command (type help for details):
+print
+	-			-			-			-			-			-			-			-		
+	-			-			-			-			-			-			-			-		
+	-			-			-			-			-			-			-			-		
+	-			-			-			-			-			-			-			-		
+	-			-			-			-			-		cscigreenF		-			-		
+	-			-			-			-			-			-			-			-		
+	-			-			-			-			-			-			-			-		
+	-			-			-			-			-			-			-			-		
+Enter a command (type help for details):
+move 4 5 left 3
+Piece at (4,2) moved left by 3 spaces
+Enter a command (type help for details):
+print
+	-			-			-			-			-			-			-			-		
+	-			-			-			-			-			-			-			-		
+	-			-			-			-			-			-			-			-		
+	-			-			-			-			-			-			-			-		
+	-			-		cscigreenF		-			-			-			-			-		
+	-			-			-			-			-			-			-			-		
+	-			-			-			-			-			-			-			-		
+	-			-			-			-			-			-			-			-		
+Enter a command (type help for details):
+create 5 5 fast flexible
+Input a name for the new piece:
+hello
+Input a colour for the new piece:
+blue
+Enter a command (type help for details):
+print
+	-			-			-			-			-			-			-			-		
+	-			-			-			-			-			-			-			-		
+	-			-			-			-			-			-			-			-		
+	-			-			-			-			-			-			-			-		
+	-			-		cscigreenF		-			-			-			-			-		
+	-			-			-			-			-		helloblueFF		-			-		
+	-			-			-			-			-			-			-			-		
+	-			-			-			-			-			-			-			-		
+Enter a command (type help for details):
+move 5 5 up 2
+Piece at (3,5) moved up by 2 spaces
+Enter a command (type help for details):
+print
+	-			-			-			-			-			-			-			-		
+	-			-			-			-			-			-			-			-		
+	-			-			-			-			-			-			-			-		
+	-			-			-			-			-		helloblueFF		-			-		
+	-			-		cscigreenF		-			-			-			-			-		
+	-			-			-			-			-			-			-			-		
+	-			-			-			-			-			-			-			-		
+	-			-			-			-			-			-			-			-		
+Enter a command (type help for details):
+exit
+
+Process finished with exit code 0
+
